@@ -137,6 +137,8 @@ return [
         Illuminate\Validation\ValidationServiceProvider::class,
         Illuminate\View\ViewServiceProvider::class,
 
+        Laracasts\Commander\CommanderServiceProvider::class,
+
         /*
          * Application Service Providers...
          */
