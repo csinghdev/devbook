@@ -1,5 +1,5 @@
 @extends('layouts.default')
 
 @section('content')
-    Welcome to Devbook
+    <h1>Welcome to Devbook</h1>
 @stop
