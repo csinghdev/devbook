@@ -15,5 +15,5 @@ $I->fillField('Password Confirmation:', 'demo');
 $I->click('Sign Up');
 
 $I->seeCurrentUrlEquals('');
-$I->see('Welcome to DevBook!');
+$I->see('Welcome to DevBook');
 

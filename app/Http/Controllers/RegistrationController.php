@@ -6,6 +6,7 @@ use Illuminate\Http\Request;
 
 use App\Http\Requests;
 use App\Http\Controllers\Controller;
+use Illuminate\Support\Facades\Redirect;
 
 class RegistrationController extends Controller
 {
@@ -18,5 +19,15 @@ class RegistrationController extends Controller
     public function create()
     {
         return view('registration.create');
+    }
+
+    /**
+     * Create a new user.
+     *
+     * @return Response
+     */
+    public function store()
+    {
+        return Redirect::home();
     }
 }
